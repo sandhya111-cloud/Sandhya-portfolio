@@ -12,7 +12,7 @@
 body {
     margin: 0;
     font-family: 'Cormorant Garamond', serif;
-    background-color: #f6f1e9; /* warm cream */
+    background-color: #f6f1e9;
     color: #1c1c1c;
 }
 
@@ -22,9 +22,8 @@ body {
     margin: auto;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-weight: 600;
-    letter-spacing: 0.5px;
 }
 
 .hero {
@@ -34,7 +33,6 @@ h1, h2, h3 {
 
 .hero h1 {
     font-size: 48px;
-    color: #1c1c1c;
 }
 
 .hero p {
@@ -46,11 +44,10 @@ h1, h2, h3 {
     display: inline-block;
     padding: 10px 22px;
     margin-top: 15px;
-    background-color: #c96f4a; /* terracotta */
+    background-color: #c96f4a;
     color: white;
     text-decoration: none;
     border-radius: 4px;
-    font-size: 16px;
 }
 
 .section {
@@ -67,19 +64,29 @@ h1, h2, h3 {
 
 .feedback {
     font-style: italic;
-    margin-bottom: 15px;
-    color: #333;
+    margin-bottom: 12px;
 }
 
 ul {
     padding-left: 18px;
 }
 
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.image-grid img {
+    width: 100%;
+    border-radius: 8px;
+}
+
 .footer {
     text-align: center;
     padding: 30px;
     color: #777;
-    font-size: 14px;
 }
 </style>
 </head>
@@ -88,7 +95,7 @@ ul {
 
 <div class="hero container">
     <h1>Sandhya</h1>
-    <p>Emotion-led Storytelling | Content Creation | Digital Marketing</p>
+    <p>Content Creator | Storytelling | Digital Marketing</p>
     <a href="https://www.instagram.com/sandhya_unspokensoul" class="btn">View Instagram</a>
 </div>
 
@@ -96,27 +103,44 @@ ul {
     <h2>About</h2>
     <div class="card">
         <p>
-            I create emotionally driven, personalized content that captures feelings people often struggle to express.
-            Through my work, I translate memories, relationships, and emotions into meaningful written experiences.
-        </p>
-        <p>
-            My Instagram page, Unspokensoul, is a space where storytelling meets real human connection —
-            built entirely through organic engagement and authentic audience response.
+            I create emotionally driven content that connects deeply with audiences.
+            Through my Instagram page, I have built a niche in personalized storytelling that generates strong emotional engagement and audience response.
         </p>
     </div>
 </div>
 
 <div class="section container">
-    <h2>Work</h2>
+    <h2>Case Study</h2>
     <div class="card">
-        <p>
-            My work primarily includes customized letters designed for special moments such as engagements,
-            anniversaries, and personal milestones.
-        </p>
-        <p>
-            Each piece is crafted with attention to emotional depth, tone, and relatability —
-            ensuring that the content resonates strongly with both the recipient and wider audiences.
-        </p>
+        <p><b>Project:</b> Engagement Anniversary Letter</p>
+
+        <p><b>Objective:</b> Create a meaningful and emotional experience.</p>
+
+        <p><b>Approach:</b></p>
+        <ul>
+            <li>Understanding client emotions and story</li>
+            <li>Structuring narrative for emotional impact</li>
+            <li>Using relatable tone</li>
+        </ul>
+
+        <p><b>Result:</b></p>
+        <ul>
+            <li>Strong emotional reactions</li>
+            <li>High satisfaction and appreciation</li>
+        </ul>
+    </div>
+</div>
+
+<div class="section container">
+    <h2>Skills</h2>
+    <div class="card">
+        <ul>
+            <li>Content Strategy</li>
+            <li>Copywriting</li>
+            <li>Storytelling</li>
+            <li>Audience Psychology</li>
+            <li>Social Media Content</li>
+        </ul>
     </div>
 </div>
 
@@ -125,36 +149,24 @@ ul {
     <div class="card">
         <p class="feedback">"No words. I loved the way she expresses your feelings."</p>
         <p class="feedback">"Very beautifully expressed."</p>
-        <p class="feedback">"He loved it. Thank you so much."</p>
-        <p class="feedback">"The effort put into these letters is next level."</p>
         <p class="feedback">"I teared up reading this. It was perfect."</p>
         <p class="feedback">"From the heart and pure emotions."</p>
-        <p class="feedback">"A perfect engagement anniversary gift."</p>
     </div>
 </div>
 
 <div class="section container">
-    <h2>What This Reflects</h2>
+    <h2>Visual Proof</h2>
     <div class="card">
-        <ul>
-            <li>Strong understanding of audience emotions and psychology</li>
-            <li>Ability to create content that drives genuine engagement</li>
-            <li>Consistency in delivering meaningful and relatable storytelling</li>
-            <li>Organic audience validation through real feedback</li>
-        </ul>
-    </div>
-</div>
 
-<div class="section container">
-    <h2>Relevance to Digital Marketing</h2>
-    <div class="card">
-        <p>
-            At its core, effective marketing is about connection. My work demonstrates the ability to understand
-            what people feel, what they relate to, and what they choose to engage with.
-        </p>
-        <p>
-            This approach allows me to create content that is not only seen — but remembered.
-        </p>
+        <div class="image-grid">
+            <img src="WhatsApp Image 2026-04-15 at 12.58.31 PM(1).jpeg">
+            <img src="WhatsApp Image 2026-04-15 at 12.58.32 PM (1)(1).jpeg">
+            <img src="WhatsApp Image 2026-04-15 at 12.58.32 PM (2)(1).jpeg">
+            <img src="WhatsApp Image 2026-04-15 at 12.58.32 PM(1).jpeg">
+            <img src="WhatsApp Image 2026-04-15 at 12.58.33 PM (1)(1).jpeg">
+            <img src="WhatsApp Image 2026-04-15 at 12.58.33 PM(1).jpeg">
+        </div>
+
     </div>
 </div>
 
@@ -163,7 +175,6 @@ ul {
     <div class="card">
         <p><b>Email:</b> Sandhya516.sandy@gmail.com</p>
         <p><b>Instagram:</b> sandhya_unspokensoul</p>
-        <p><b>Location:</b> India</p>
     </div>
 </div>
 
